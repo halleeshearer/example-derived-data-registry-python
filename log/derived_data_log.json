@@ -18,7 +18,6 @@
   "description": "25 personality self report items taken from the International Personality Item Pool (ipip.ori.org)[...]",
   "variableDerived": [
     {
-    {
       "name": "extraversion",
       "description": "5 E items aggregated by rowMeans",
       "@type": "PropertyValue"
