@@ -20,14 +20,14 @@
     {
       "name": "extraversion",
       "description": "5 E items aggregated by rowMeans",
-      "@type": "PropertyValue"
-      "derived": yes,
+      "@type": "PropertyValue",
+      "derived": "yes",
       "varAuthor": "First Last",
       "reviewers": "First Last",
       "lastUpdated": "2024-08-07",
-      "gitSha": 8d7ff3e182a7101ab9a887cfba99872869c97552, 
-      "logStatus: "registered",
-      "inputVars: "E1, E2, E3, E4, E5",
+      "gitSha": "8d7ff3e182a7101ab9a887cfba99872869c97552", 
+      "logStatus": "registered",
+      "inputVars": "E1, E2, E3, E4, E5",
       "transformations": "E1 and E2 were reversed scored; then all items were summed",
       "subset": "NA, calculated for all subjects",
       "inputMissingness": "If any item is missing, var is missing",
@@ -36,18 +36,28 @@
     {
       "name": "plasticity",
       "description": "10  items aggregated by rowMeans",
-      "@type": "PropertyValue"
-      "derived": yes,
+      "@type": "PropertyValue",
+      "derived": "yes",
       "varAuthor": "First Last",
       "reviewers": "First Last",
       "lastUpdated": "2024-08-07",
-      "gitSha": 8d7ff3e182a7101ab9a887cfba99872869c97552, 
-      "logStatus: "registered",
-      "inputVars: "E1, E2, E3, E4, E5, O1, O2, O3, O4, O5",
+      "gitSha": "8d7ff3e182a7101ab9a887cfba99872869c97552", 
+      "logStatus": "registered",
+      "inputVars": "E1, E2, E3, E4, E5, O1, O2, O3, O4, O5",
       "transformations": "E1, E2, O2, O5 were reversed scored; then all items were summed",
       "subset": "NA, calculated for all subjects",
       "inputMissingness": "If any item is missing, var is missing",
       "n": 2651
+    },
+    {
+      "name": "openness",
+      "description": "5 items aggregated by rowMeans",
+      "@type": "PropertyValue",
+      "derived": "yes",
+      "varAuthor": "First Last",
+      "reviewers": "First Last",
+      "lastUpdated": "2024-08-07",
+      "logStatus": "under development"
     }
   ]
 }
